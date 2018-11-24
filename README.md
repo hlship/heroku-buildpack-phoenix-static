@@ -130,3 +130,7 @@ if mix help "${phoenix_ex}.digest.clean" 1>/dev/null 2>&1; then
   mix "${phoenix_ex}.digest.clean"
 fi
 ```
+
+# About This Fork
+
+Updates the command to use webpack instead of brunch, which aligns with Phoenix 1.4.
