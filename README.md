@@ -112,3 +112,8 @@ The above `compile` overrides the default one. :)
 2. Do I need `heroku-buildpack-nodejs` with this?
 - No, this buildpack installs Node for you. How it differs from the NodeJS buildpack
 is that it adds `mix` to the PATH so you can run `mix` commands like `mix phoenix.digest`.
+
+
+# About This Fork
+
+Updates the command to use webpack instead of brunch, which aligns with Phoenix 1.4.
